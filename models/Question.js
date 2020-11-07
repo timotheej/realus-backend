@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 
-const questionSchema = mongoose.Schema({
-  title: { type: String, required: true },
-});
+const questionSchema = mongoose.Schema({});
 
 module.exports = mongoose.model("Question", questionSchema);
